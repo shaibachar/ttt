@@ -63,8 +63,8 @@ git push origin $BRANCH
    [Service]
    ExecStart=/path/to/your/script/update_ip.sh
    WorkingDirectory=/path/to/your/repo
-   User=yourusername
-   Group=yourgroup
+   User=shai
+   Group=shai
 
    [Install]
    WantedBy=multi-user.target

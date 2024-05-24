@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Server IP and Push to GitHub
+
+[Service]
+ExecStart=/home/shai/workspace/ttt/update_ip.sh
+WorkingDirectory=/home/shai/workspace/ttt
+User=$(whoami)
+Group=$(id -gn)
+
+[Install]
+WantedBy=multi-user.target
