@@ -1,1 +1,0 @@
-Local server IP address: 10.0.0.8
